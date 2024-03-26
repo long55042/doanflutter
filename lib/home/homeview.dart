@@ -1,5 +1,3 @@
-// import 'package:baicuoiki/bottom/bottomMenu.dart';
-// import 'package:baicuoiki/bottom/drawer/drawer.dart';
 import 'package:baicuoiki/home/home.dart';
 import 'package:baicuoiki/home/thoisu.dart';
 import 'package:baicuoiki/home/video.dart';
@@ -77,16 +75,6 @@ class HomeView extends StatelessWidget {
             ),
           ],
         ),
-        // TabBarView(
-        //   children: [
-        //     // const NavBar(),
-        //     const Home(),
-        //     Watch(),
-        //     Video(),
-        //     const Thoisu(),
-        //
-        //   ],
-        // ),
       ),
     );
   }
