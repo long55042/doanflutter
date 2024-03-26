@@ -277,31 +277,6 @@ class _InformationState extends State<Information> {
                           },
                           child: const Text('UPDATE')),
                     ),
-                    // SizedBox(
-                    //   height: 25,
-                    // ),
-                    // Container(
-                    //   height: 50,
-                    //   width: 150,
-                    //   decoration: ShapeDecoration(
-                    //     color: Color(0xffD9D9D9),
-                    //     shape: RoundedRectangleBorder(
-                    //       borderRadius: BorderRadius.circular(10),
-                    //     ),
-                    //   ),
-                    //   child: Row(
-                    //     mainAxisAlignment: MainAxisAlignment.center,
-                    //     children: const [
-                    //       Text(
-                    //         'Luu Cap Nhat',
-                    //         style: TextStyle(
-                    //           color: Colors.black54,
-                    //           fontSize: 18,
-                    //         ),
-                    //       ),
-                    //     ],
-                    //   ),
-                    // ),
                   ],
                 ),
               ),
