@@ -70,11 +70,8 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(
             visualDensity: VisualDensity.adaptivePlatformDensity,
           ),
-          // theme: themeModel.isDark ? ThemeData.dark() : ThemeData.light(),
           home:
-          // HomeScreen(),
-          // DartLight(),
-          LoginScreen(),
+        LoginScreen(),
         );
     //   }),
     // );
