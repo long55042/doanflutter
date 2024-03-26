@@ -21,14 +21,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
   final TextEditingController _ComfitpasswordController =
       TextEditingController();
 
-  // Future signup() async {
-  //   if (passwordComfirmed()) {
-  //     await FirebaseAuth.instance.createUserWithEmailAndPassword(
-  //         email: _emailController.text.trim(),
-  //         password: _passwordController.text.trim());
-  //   }
-  // }
-
   bool passwordComfirmed() {
     if (_passwordController.text.trim() ==
         _ComfitpasswordController.text.trim()) {
@@ -233,37 +225,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             ),
                           ),
                         ),
-                        // Padding(
-                        //   padding: const EdgeInsets.symmetric(horizontal: 20),
-                        //   child: TextButton(
-                        //     onPressed: () {
-                        //       Navigator.push(
-                        //           context,
-                        //           MaterialPageRoute(
-                        //               builder: (context) => const BottomNav()));
-                        //     },
-                        //     child: GestureDetector(
-                        //       onTap: signup,
-                        //       child: Container(
-                        //         padding: const EdgeInsets.all(20),
-                        //         decoration: BoxDecoration(
-                        //           color: Colors.red,
-                        //           borderRadius: BorderRadius.circular(12),
-                        //         ),
-                        //         child: const Center(
-                        //           child: Text(
-                        //             'Sign In',
-                        //             style: TextStyle(
-                        //               color: Colors.black,
-                        //               fontWeight: FontWeight.bold,
-                        //               fontSize: 18,
-                        //             ),
-                        //           ),
-                        //         ),
-                        //       ),
-                        //     ),
-                        //   ),
-                        // ),
+                    
                         Container(
                           height: 50.0,
                           color: Colors.white,
